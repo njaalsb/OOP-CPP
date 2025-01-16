@@ -33,15 +33,9 @@ void printSumOfInputIntegers() {
 
 bool isOdd(int n) {
     // BEGIN: 1f
-    //bool val;
-    //cout << "Skriv inn et heltall: \n";
-    //cin >> n;
     if(n%2>0){
-        //val = false;
-        //cout << "Tallet ditt er et oddetall" << endl;
         return false;
     } else{
-        //cout << "Tallet ditt er et partall" << endl;
         return true;
     }
     // END: 1f
@@ -197,8 +191,6 @@ vector<int> calculateBalance(int amount, int rate, int years) {
 
 void printBalance(vector<int> balanceVec) {
     // BEGIN: 5b
-    //vector<int> printVektor;
-    //balanceVec = calculateBalance(5000,3,3);
     cout << "Aar" << setw(10) << "Saldo" << endl;
     for(int i = 0; i < balanceVec.size(); i++){
         cout << i << setw(11) << balanceVec[i] << endl;
@@ -252,14 +244,14 @@ int main() {
             cout << "Generer gangetabell\n";
             printMultiplicationTable();
             break;
+            
         case 5:
             cout << "Los andregradsligning:\n";
             solveQuadraticEquations();
             break;
+            
         case 6:
             cout << "Renter\n";
-            //vector renter;
-            //renter = calculateBalance(30, 3, 3);
             printVektor = calculateBalance(5000,3,3);
             printBalance(printVektor);
             cin >> valg;
@@ -270,6 +262,7 @@ int main() {
                 cout << v.at(i) << endl;
                 }
             break;
+            
         default:
             cout << endl;
             cout << "Velg funksjon:\n";
