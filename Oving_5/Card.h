@@ -12,7 +12,7 @@ enum class Rank{two = 2, three, four, five, six, seven, eight, nine, ten, jack, 
 
 // Les deg opp på map og unordered_map i C++, og bruk disse map-ene 
 // for å konvertere mellom Rank/Suit og string i oppgavene videre
-// Husk å fjern /* for å bruke map-ene
+
 const map<Rank, string> rankToStringMap {
 	{Rank::two, "two"},
 	{Rank::three, "three"},
