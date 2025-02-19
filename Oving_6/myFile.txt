@@ -1,0 +1,3 @@
+ESDI:Systemdesign
+IFYT:fysikk
+IMAT:matte
