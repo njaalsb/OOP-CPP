@@ -7,10 +7,12 @@ Kommer til å legge ut alle øvingene i dette repoet i hver sin mappe, men koden
 Dette blir en slags huskeliste over grunnleggende informasjon i C++.
 
 ### Typekonvertering:
-| Fra type  | Til type | funksjon | 
-| ------------- | ------------- | -------------|
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
+| Fra type:  | Til type: | Funksjon: | Forklaring/kommentar | 
+| ------------- | ------------- | -------------| -------------|
+| String (char*)  | int  | atoi(variabel) | ASCII To Integer |
+| int  | String (char*)  | itoa(variabel)  | Integer To ASCII |
+| ASCII  | Float  | atof()  | ASCII To Float |
+
 
 
 ### Stack vs. heap allokering:
