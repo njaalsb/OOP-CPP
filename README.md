@@ -12,7 +12,7 @@ Dette blir en slags huskeliste over grunnleggende informasjon i C++.
 | String (char*)  | int  | atoi(variabel) | ASCII To Integer |
 | int  | String (char*)  | itoa(variabel)  | Integer To ASCII |
 | ASCII  | Float  | atof(variabel)  | ASCII To Float |
-| int, float, double etc.  | String (char*)  | std::tostring(variabel)  | Fra std namespace |
+| int, float, double etc.  | String (char*)  | std::to_string(variabel)  | Fra std namespace |
 | ASCII  | Float  | atof(variabel)  | ASCII To Float |
 | enum  | int  | static_cast<int>(c)  | enum til int, når det gjelder static_cast bør det bare brukes dersom du vet at objektet faktisk kan endres|
 | void* | int, float, double etc. | static_cast<int>(ptr) | Setter void-peker til spesifikk type, ettersom void-pekere ikke har en type |
