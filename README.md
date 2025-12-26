@@ -2,9 +2,7 @@
 
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-Repository for øvinger og lingnende i TDT4102.
-
-Kommer til å legge ut alle øvingene i dette repoet i hver sin mappe, men koden vil ikke være særlig brukbar utenfor et environment med TDT4102 extensionen installert.
+Repository for øvinger og lignende i TDT4102.
 
 ## Eksamensrelaterte notater:
 Dette blir en slags huskeliste over grunnleggende informasjon i C++.
